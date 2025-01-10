@@ -10,13 +10,16 @@ for entry in dirs:
   num = int(entry[0])
   problems[num] = {"title": ' '.join(entry[1:]).title(), "path": f"./leetcode/{path}"}
 
-problem_list = []
+problem_list = ""
 
 for problem in range(1, 3416):
   if problem in problems:
-    problem_list.append(f"[{problem}. {problems[problem]['title']}]({problems[problem]['path']})")
-    problem_list.append("  ")
+    problem_list += "- [{number}) {name}]({path})\n ".format(number=problem, name=problems[problem]["title"], path=problems[problem]["path"])
 
+readme = f"""
+## Problems Solved
+{problem_list}
+"""
 
 with open("readme.md", "w") as text_file:
-    text_file.write("\n".join(problem_list))
+    text_file.write(readme)
