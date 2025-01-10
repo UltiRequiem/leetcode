@@ -29,10 +29,15 @@ with urllib.request.urlopen(f"https://leetcode-stats-api.herokuapp.com/{username
     actual_total = data["totalSolved"]
     updated = total == actual_total
 
-readme = f"""
-## Problems Solved
+readme = f"""## Problems Solved
+
 {problem_list}
+
 Total solved: {total} ({f'Updated' if updated else "Outdated"} | {datetime.today().strftime("%Y-%m-%d")})
+
+## Credits
+
+- [Open Source LeetCode API](https://github.com/JeremyTsaii/leetcode-stats-api)
 """
 
 with open("readme.md", "w") as text_file:

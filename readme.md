@@ -1,5 +1,5 @@
-
 ## Problems Solved
+
 - [1) Two Sum](./leetcode/01-two-sum)
  - [9) Palindrome Number](./leetcode/09-palindrome-number)
  - [13) Roman To Integer](./leetcode/13-roman-to-integer)
@@ -22,4 +22,9 @@
  - [1089) Duplicate Zeros](./leetcode/1089-duplicate-zeros)
  - [1295) Find Numbers With Even Numbers Of Digits](./leetcode/1295-find-numbers-with-even-numbers-of-digits)
  
+
 Total solved: 21 (Outdated | 2025-01-10)
+
+## Credits
+
+- [Open Source LeetCode API](https://github.com/JeremyTsaii/leetcode-stats-api)
