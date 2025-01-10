@@ -1,4 +1,9 @@
 import os
+import urllib.request
+import json
+from datetime import datetime
+
+username = "ultirequiem"
 
 dirs =  [x[0][9:] for x in os.walk("leetcode/")][1:]
 
@@ -17,10 +22,17 @@ for problem in range(1, 3416):
     problem_list += "- [{number}) {name}]({path})\n ".format(number=problem, name=problems[problem]["title"], path=problems[problem]["path"])
     total +=1
 
+updated = False
+
+with urllib.request.urlopen(f"https://leetcode-stats-api.herokuapp.com/{username}") as url:
+    data = json.load(url)
+    actual_total = data["totalSolved"]
+    updated = total == actual_total
+
 readme = f"""
 ## Problems Solved
 {problem_list}
-Toal solved: {total}
+Total solved: {total} ({f'Updated' if updated else "Outdated"} | {datetime.today().strftime("%Y-%m-%d")})
 """
 
 with open("readme.md", "w") as text_file:

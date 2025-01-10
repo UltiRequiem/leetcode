@@ -22,4 +22,4 @@
  - [1089) Duplicate Zeros](./leetcode/1089-duplicate-zeros)
  - [1295) Find Numbers With Even Numbers Of Digits](./leetcode/1295-find-numbers-with-even-numbers-of-digits)
  
-Toal solved: 21
+Total solved: 21 (Outdated | 2025-01-10)
