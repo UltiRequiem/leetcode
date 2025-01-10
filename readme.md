@@ -8,10 +8,12 @@
  - [80) Remove Duplicates From Sorted Array 2](./leetcode/80-remove-duplicates-from-sorted-array-2)
  - [88) Merge Sorted Array](./leetcode/88-merge-sorted-array)
  - [242) Valid Anagram](./leetcode/242-valid-anagram)
+ - [283) Move Zeroes](./leetcode/283-move-zeroes)
  - [345) Reverse Vowels Of A String](./leetcode/345-reverse-vowels-of-a-string)
  - [388) Ransom Note](./leetcode/388-ransom-note)
  - [412) Fizz Buzz](./leetcode/412-fizz-buzz)
  - [414) Third Maximum Number](./leetcode/414-third-maximum-number)
+ - [447) Find All Numbers Dissapeared In An Array](./leetcode/447-find-all-numbers-dissapeared-in-an-array)
  - [448) Max Consecuitve Ones](./leetcode/448-max-consecuitve-ones)
  - [724) Find Pitot Index](./leetcode/724-find-pitot-index)
  - [876) Middle Of Linked List](./leetcode/876-middle-of-linked-list)
@@ -43,7 +45,7 @@
  - [2723) Add Two Promises](./leetcode/2723-add-two-promises)
  
 
-Total solved: 41 (Outdated43/41 | 2025-01-10)
+Total solved: 43 (Updated | 2025-01-10)
 My account: https://leetcode.com/u/ultirequiem
 
 ## Credits

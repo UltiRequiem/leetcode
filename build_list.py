@@ -34,7 +34,7 @@ readme = f"""## Problems Solved
 
 {problem_list}
 
-Total solved: {total} ({f'Updated' if updated else "Outdated" +f'{actual_total}/{total}'} | {datetime.today().strftime("%Y-%m-%d")})
+Total solved: {total} ({f'Updated' if updated else "Outdated " +f'{total}/{actual_total}'} | {datetime.today().strftime("%Y-%m-%d")})
 My account: https://leetcode.com/u/{username}
 
 ## Credits
