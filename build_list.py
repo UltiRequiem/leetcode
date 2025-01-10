@@ -24,7 +24,7 @@ for problem in range(1, 3416):
     total +=1
 
 updated = False
-
+actual_total = 0
 with urllib.request.urlopen(f"https://leetcode-stats-api.herokuapp.com/{username}") as url:
     data = json.load(url)
     actual_total = data["totalSolved"]
@@ -34,7 +34,7 @@ readme = f"""## Problems Solved
 
 {problem_list}
 
-Total solved: {total} ({f'Updated' if updated else "Outdated"} | {datetime.today().strftime("%Y-%m-%d")})
+Total solved: {total} ({f'Updated' if updated else "Outdated" +f'{actual_total}/{total}'} | {datetime.today().strftime("%Y-%m-%d")})
 My account: https://leetcode.com/u/{username}
 
 ## Credits

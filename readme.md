@@ -43,7 +43,7 @@
  - [2723) Add Two Promises](./leetcode/2723-add-two-promises)
  
 
-Total solved: 41 (Outdated | 2025-01-10)
+Total solved: 41 (Outdated43/41 | 2025-01-10)
 My account: https://leetcode.com/u/ultirequiem
 
 ## Credits
