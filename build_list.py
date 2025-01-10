@@ -17,6 +17,7 @@ for entry in dirs:
 
 problem_list = ""
 total = 0
+
 for problem in range(1, 3416):
   if problem in problems:
     problem_list += "- [{number}) {name}]({path})\n ".format(number=problem, name=problems[problem]["title"], path=problems[problem]["path"])
@@ -34,10 +35,12 @@ readme = f"""## Problems Solved
 {problem_list}
 
 Total solved: {total} ({f'Updated' if updated else "Outdated"} | {datetime.today().strftime("%Y-%m-%d")})
+My account: https://leetcode.com/u/{username}
 
 ## Credits
 
 - [Open Source LeetCode API](https://github.com/JeremyTsaii/leetcode-stats-api)
+
 """
 
 with open("readme.md", "w") as text_file:
