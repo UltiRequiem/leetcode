@@ -46,3 +46,5 @@ My account: https://leetcode.com/u/{username}
 
 with open("readme.md", "w") as text_file:
     text_file.write(readme)
+
+print("List updated!")
