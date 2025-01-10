@@ -14,7 +14,7 @@ problem_list = ""
 
 for problem in range(1, 3416):
   if problem in problems:
-    problem_list += f"{problem}. [{problems[problem]['title']}]({problems[problem]['path']})\n"
+    problem_list += f"[{problem}. {problems[problem]['title']}]({problems[problem]['path']})\n"
 1
 
 with open("readme.md", "w") as text_file:
