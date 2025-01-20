@@ -3,6 +3,7 @@
 - [1) Two Sum](./leetcode/01-two-sum)
 - [9) Palindrome Number](./leetcode/09-palindrome-number)
 - [13) Roman To Integer](./leetcode/13-roman-to-integer)
+- [21) Merge Two Sorted Lists](./leetcode/21-merge-two-sorted-lists)
 - [26) Remove Duplicates From Sorted Array](./leetcode/26-remove-duplicates-from-sorted-array)
 - [27) Remove Element](./leetcode/27-remove-element)
 - [80) Remove Duplicates From Sorted Array 2](./leetcode/80-remove-duplicates-from-sorted-array-2)
@@ -44,7 +45,7 @@
 - [2704) To Be Or Not To Be](./leetcode/2704-to-be-or-not-to-be)
 - [2723) Add Two Promises](./leetcode/2723-add-two-promises)
 
-Total solved: 43 (Updated | 2025-01-10)
+Total solved: 44 (Outdated 44/52 | 2025-01-19)
 
 My account: https://leetcode.com/u/ultirequiem
 
