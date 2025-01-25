@@ -6,6 +6,7 @@
 - [21) Merge Two Sorted Lists](./leetcode/21-merge-two-sorted-lists)
 - [26) Remove Duplicates From Sorted Array](./leetcode/26-remove-duplicates-from-sorted-array)
 - [27) Remove Element](./leetcode/27-remove-element)
+- [35) Search Insert Position](./leetcode/35-search-insert-position)
 - [80) Remove Duplicates From Sorted Array 2](./leetcode/80-remove-duplicates-from-sorted-array-2)
 - [88) Merge Sorted Array](./leetcode/88-merge-sorted-array)
 - [242) Valid Anagram](./leetcode/242-valid-anagram)
@@ -16,6 +17,7 @@
 - [414) Third Maximum Number](./leetcode/414-third-maximum-number)
 - [447) Find All Numbers Dissapeared In An Array](./leetcode/447-find-all-numbers-dissapeared-in-an-array)
 - [448) Max Consecuitve Ones](./leetcode/448-max-consecuitve-ones)
+- [704) Binary Search](./leetcode/704-binary-search)
 - [724) Find Pitot Index](./leetcode/724-find-pitot-index)
 - [876) Middle Of Linked List](./leetcode/876-middle-of-linked-list)
 - [905) Sort Array By Parity](./leetcode/905-sort-array-by-parity)
@@ -45,7 +47,7 @@
 - [2704) To Be Or Not To Be](./leetcode/2704-to-be-or-not-to-be)
 - [2723) Add Two Promises](./leetcode/2723-add-two-promises)
 
-Total solved: 44 (Outdated 44/52 | 2025-01-19)
+Total solved: 46 (Outdated 46/55 | 2025-01-25)
 
 My account: https://leetcode.com/u/ultirequiem
 
