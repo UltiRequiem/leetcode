@@ -10,6 +10,9 @@ def main():
     # Format with Deno
     subprocess.run(["deno", "fmt", "."], check=True)
     
+    # Run tests
+    subprocess.run(["python3", "-m", "unittest", "discover"], check=True)
+    
     # Git add all changes
     subprocess.run(["git", "add", "."], check=True)
     
