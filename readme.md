@@ -54,3 +54,4 @@ My account: https://leetcode.com/u/ultirequiem
 ## Credits
 
 - [Open Source LeetCode API](https://github.com/JeremyTsaii/leetcode-stats-api)
+- [LeetCode CLI](https://github.com/skygragon/leetcode-cli)
