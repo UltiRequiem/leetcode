@@ -7,6 +7,7 @@
 - [26) Remove Duplicates From Sorted Array](./leetcode/26-remove-duplicates-from-sorted-array)
 - [27) Remove Element](./leetcode/27-remove-element)
 - [35) Search Insert Position](./leetcode/35-search-insert-position)
+- [75) Sort Colors](./leetcode/75-sort-colors)
 - [80) Remove Duplicates From Sorted Array 2](./leetcode/80-remove-duplicates-from-sorted-array-2)
 - [88) Merge Sorted Array](./leetcode/88-merge-sorted-array)
 - [242) Valid Anagram](./leetcode/242-valid-anagram)
@@ -32,6 +33,7 @@
 - [1480) Running Sum Of 1D Array](./leetcode/1480-running-sum-of-1d-array)
 - [1672) Richest Customer Wealth](./leetcode/1672-richest-customer-wealth)
 - [1768) Merge Strings Alternately](./leetcode/1768-merge-strings-alternately)
+- [1790) Check If One String Swap Can Make Strings Equal](./leetcode/1790-check-if-one-string-swap-can-make-strings-equal)
 - [1991) Find The Middle Index In Array](./leetcode/1991-find-the-middle-index-in-array)
 - [2558) Take Gifst From The Richest Pile](./leetcode/2558-take-gifst-from-the-richest-pile)
 - [2620) Counter](./leetcode/2620-counter)
@@ -47,11 +49,10 @@
 - [2704) To Be Or Not To Be](./leetcode/2704-to-be-or-not-to-be)
 - [2723) Add Two Promises](./leetcode/2723-add-two-promises)
 
-Total solved: 46 (Outdated 46/55 | 2025-01-25)
+Total solved: 48 (Outdated 48/59 | 2025-02-10)
 
 My account: https://leetcode.com/u/ultirequiem
 
 ## Credits
 
 - [Open Source LeetCode API](https://github.com/JeremyTsaii/leetcode-stats-api)
-- [LeetCode CLI](https://github.com/skygragon/leetcode-cli)
